@@ -1,0 +1,142 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local RemoteSpy = Instance.new("TextButton")
+local InfiniteYield = Instance.new("TextButton")
+local DexExplorer = Instance.new("TextButton")
+local RNGFightsHub = Instance.new("TextButton")
+local CreateACartRideHub = Instance.new("TextButton")
+local AnimeGirlRngHub = Instance.new("TextButton")
+
+--Properties:
+
+Frame.Parent = game.StarterGui.ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(167, 205, 255)
+Frame.BackgroundTransparency = 0.500
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 5
+Frame.Position = UDim2.new(0.299789608, 0, 0.123635001, 0)
+Frame.Size = UDim2.new(0, 441, 0, 333)
+Frame.Active = true
+Frame.Draggable = true
+
+UICorner.CornerRadius = UDim.new(0, 50)
+UICorner.Parent = Frame
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0249433108, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 175, 0, 50)
+TextLabel.Font = Enum.Font.Michroma
+TextLabel.Text = "Basic Hub"
+TextLabel.TextColor3 = Color3.fromRGB(34, 150, 182)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+RemoteSpy.Name = "Remote Spy"
+RemoteSpy.Parent = Frame
+RemoteSpy.BackgroundColor3 = Color3.fromRGB(101, 201, 255)
+RemoteSpy.BackgroundTransparency = 0.600
+RemoteSpy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RemoteSpy.BorderSizePixel = 0
+RemoteSpy.Position = UDim2.new(0.111111112, 0, 0.240240246, 0)
+RemoteSpy.Size = UDim2.new(0, 104, 0, 28)
+RemoteSpy.Font = Enum.Font.Gotham
+RemoteSpy.Text = "Remote Spy"
+RemoteSpy.TextColor3 = Color3.fromRGB(0, 0, 0)
+RemoteSpy.TextScaled = true
+RemoteSpy.TextSize = 14.000
+RemoteSpy.TextWrapped = true
+RemoteSpy.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
+end)
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = Frame
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(101, 201, 255)
+InfiniteYield.BackgroundTransparency = 0.600
+InfiniteYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.BorderSizePixel = 0
+InfiniteYield.Position = UDim2.new(0.37641722, 0, 0.240240246, 0)
+InfiniteYield.Size = UDim2.new(0, 104, 0, 28)
+InfiniteYield.Font = Enum.Font.Gotham
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.TextScaled = true
+InfiniteYield.TextSize = 14.000
+InfiniteYield.TextWrapped = true
+InfiniteYield.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+DexExplorer.Name = "Dex Explorer"
+DexExplorer.Parent = Frame
+DexExplorer.BackgroundColor3 = Color3.fromRGB(101, 201, 255)
+DexExplorer.BackgroundTransparency = 0.600
+DexExplorer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DexExplorer.BorderSizePixel = 0
+DexExplorer.Position = UDim2.new(0.653061211, 0, 0.240240246, 0)
+DexExplorer.Size = UDim2.new(0, 104, 0, 28)
+DexExplorer.Font = Enum.Font.Gotham
+DexExplorer.Text = "Dex Explorer"
+DexExplorer.TextColor3 = Color3.fromRGB(0, 0, 0)
+DexExplorer.TextScaled = true
+DexExplorer.TextSize = 14.000
+DexExplorer.TextWrapped = true
+DexExplorer.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Dex-Explorer-v2-6653"))()
+end)
+
+RNGFightsHub.Name = "RNG Fights Hub"
+RNGFightsHub.Parent = Frame
+RNGFightsHub.BackgroundColor3 = Color3.fromRGB(101, 201, 255)
+RNGFightsHub.BackgroundTransparency = 0.600
+RNGFightsHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RNGFightsHub.BorderSizePixel = 0
+RNGFightsHub.Position = UDim2.new(0.111111112, 0, 0.378378391, 0)
+RNGFightsHub.Size = UDim2.new(0, 104, 0, 28)
+RNGFightsHub.Font = Enum.Font.Gotham
+RNGFightsHub.Text = "RNG Fights Hub"
+RNGFightsHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+RNGFightsHub.TextScaled = true
+RNGFightsHub.TextSize = 14.000
+RNGFightsHub.TextWrapped = true
+
+CreateACartRideHub.Name = "Create A Cart Ride Hub"
+CreateACartRideHub.Parent = Frame
+CreateACartRideHub.BackgroundColor3 = Color3.fromRGB(101, 201, 255)
+CreateACartRideHub.BackgroundTransparency = 0.600
+CreateACartRideHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CreateACartRideHub.BorderSizePixel = 0
+CreateACartRideHub.Position = UDim2.new(0.37641722, 0, 0.378378391, 0)
+CreateACartRideHub.Size = UDim2.new(0, 104, 0, 28)
+CreateACartRideHub.Font = Enum.Font.Gotham
+CreateACartRideHub.Text = "Create A Cart Ride Hub"
+CreateACartRideHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+CreateACartRideHub.TextScaled = true
+CreateACartRideHub.TextSize = 14.000
+CreateACartRideHub.TextWrapped = true
+
+AnimeGirlRngHub.Name = "Anime Girl Rng Hub"
+AnimeGirlRngHub.Parent = Frame
+AnimeGirlRngHub.BackgroundColor3 = Color3.fromRGB(101, 201, 255)
+AnimeGirlRngHub.BackgroundTransparency = 0.600
+AnimeGirlRngHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AnimeGirlRngHub.BorderSizePixel = 0
+AnimeGirlRngHub.Position = UDim2.new(0.653061211, 0, 0.378378391, 0)
+AnimeGirlRngHub.Size = UDim2.new(0, 104, 0, 28)
+AnimeGirlRngHub.Font = Enum.Font.Gotham
+AnimeGirlRngHub.Text = "Anime Girl Rng Hub"
+AnimeGirlRngHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+AnimeGirlRngHub.TextScaled = true
+AnimeGirlRngHub.TextSize = 14.000
+AnimeGirlRngHub.TextWrapped = true
